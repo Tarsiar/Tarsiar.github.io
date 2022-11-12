@@ -1,0 +1,379 @@
+/* 头部 */
+.head-z li a {
+  color: #000;
+}
+
+.head {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid rgb(174, 199, 236);
+}
+
+.head-r div {
+  color: #000;
+}
+
+.head-r-1 {
+  border-color: #d3d3d3;
+}
+
+.head-r .head-r-1 a{
+  color: #000;
+}
+
+.head-z .active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #00bdff;
+  margin-top: -2px;
+  margin-left: 0px;
+}
+
+/* api分类 */
+.api-btn {
+  margin: 25px auto;
+}
+
+.api-btn h2 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.api-btn a {
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 7px 15px;
+  display: inline-block;
+  margin: 5px 0;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.api-btn .active {
+  color: rgb(0, 167, 242);
+  border: 1px solid rgb(0, 167, 242);
+  
+}
+
+.api-btn .new {
+  font-weight: bolder;
+}
+
+/* input框 */
+.api-label {
+  display: block;
+}
+
+.api-label span {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  line-height: 30px;
+}
+
+.api-label input {
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 15px;
+  background-color: #f4f4f4;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.api-label img {
+  position: relative;
+  top: 0;
+  left: -30px;
+  cursor: pointer;
+}
+
+/* api列表 */
+.api-list {
+  margin-top: 10px;
+}
+
+.api-list li {
+  width: 226px;
+  height: 270px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding-top: 57px;
+  position: relative;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.api-list li:nth-child(5n) {
+  margin-right: 0px;
+}
+
+.api-list li span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 22px;
+  background-color: #e5f8ff;
+  color: #00bdff;
+  font-size: 6px;
+  line-height: 22px;
+}
+
+.api-list li h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+}
+
+.api-list li p {
+  font-size: 14px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.api-list li button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: #00bdff;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -40px;
+  transition: all 0.5s;
+}
+
+.api-list li:hover button {
+  bottom: 20px;
+  opacity: 1;
+}
+
+.api-list li:hover {
+  padding-top: 47px;
+}
+
+/* 分页paging */
+.paging {
+  height: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.paging ul {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.paging li {
+  display: inline-block;
+  padding: 0 10px;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+}
+
+.paging li:hover {
+  cursor: pointer;
+}
+
+.paging li a {
+  color: #00bdff;
+}
+
+/* .paging li:nth-child(1 */
+
+ul .paging-bg {
+  background-color: #00bdff;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* 尾部背景颜色 */
+.foot-bg {
+  background-color: #f8f8f8;
+  ;
+  z-index: 999;
+  width: 100%;
+
+}
+
+.foot-bg .foot {
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+
+
+/* 登录模态框小 */
+.mantle-two {
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+
+.mantle-two .moder-2 {
+  width: 400px;
+  height: 550px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 20px 20px 20px;
+}
+
+.moder-2-in-img {
+  width: 195px;
+  height: 50px;
+  margin: 0 auto;
+
+}
+
+.landing {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.landing button {
+  width: 65px;
+  height: 30px;
+  font-size: 14px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.landing .active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #00bdff;
+  margin-top: 5px;
+  left: 0;
+}
+
+.landing span {
+  margin: 0 15px;
+}
+
+
+.way {
+  margin-top: 55px;
+}
+
+.way .ctt-one {
+
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.way .ctt-one div {
+  width: 400px;
+  background-image: url(../images/loginIcon.png);
+  background-repeat: no-repeat;
+  background-position: -54px 3px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.way .ctt-one div:nth-child(2) {
+  background-position: -24px 4px;
+}
+
+.way .ctt-one input {
+  font-size: 16px;
+  width: 320px;
+  height: 40px;
+  border: none;
+  line-height: 40px;
+}
+
+.way .ctt-one p {
+  text-align: right;
+
+}
+
+.way .ctt-one p a {
+  color: #03c5ff;
+}
+
+.ctt-two-img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.ctt-one button {
+  width: 400px;
+  height: 50px;
+  background-color: #03c5ff;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 25px;
+
+
+}
+
+.ctt-two {
+  display: none;
+}
+
+.ctt-two-bg {
+  background-color: #fcfcfc;
+  padding-top: 30px;
+  border: 1px solid #eee;
+}
+
+.ctt-two-text {
+  width: 400px;
+  height: 80px;
+}
+
+.ctt-two-bg .ctt-two-text p {
+  text-align: center;
+  margin-top: 20px;
+  color: #000;
+}
+
+.ctt-two .ctt-two-buttom {
+  margin-top: 20px;
+}
+
+.ctt-two .ctt-two-buttom span {
+  color: #959595;
+}
+
+.ctt-two .ctt-two-buttom a {
+  color: #00bdff;
+}
