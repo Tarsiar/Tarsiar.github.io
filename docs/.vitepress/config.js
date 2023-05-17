@@ -9,7 +9,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  // base:'/mc/',
+  base: '.',
   title: "mc21212 小唐",
   description: "22222",
   themeConfig: {
