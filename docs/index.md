@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "111"
-  text: "22222"
-  tagline: My great project tagline
+  name: "简单"
+  # text: "尽管努力，剩下的交给天意"
+  tagline: 尽管努力，剩下的交给天意
   actions:
     - theme: brand
       text: Markdown Examples
