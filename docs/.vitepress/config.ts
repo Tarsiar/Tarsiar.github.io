@@ -2,7 +2,7 @@
  * @Author: dylan dylan@webpowerchina.com
  * @Date: 2023-05-22 11:19:22
  * @LastEditors: dylan dylan@webpowerchina.com
- * @LastEditTime: 2023-05-22 12:59:15
+ * @LastEditTime: 2023-05-22 13:55:50
  * @FilePath: \Tarsiar.github.io\.vitepress\config.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -16,6 +16,7 @@ export default defineConfig({
   description: "知心",
   lastUpdated: true,
   themeConfig: {
+    logo: '/logo.svg',
     siteTitle: "mc 小唐",
     search: {
       provider: 'algolia',
@@ -25,9 +26,7 @@ export default defineConfig({
         indexName: '...'
       }
     },
-    // head: [
-    //   ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
-    // ],
+
     nav: [                  //右上角的导航栏
       {
         text: "前端",             //导航标签的名字
