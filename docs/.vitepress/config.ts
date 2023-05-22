@@ -30,13 +30,12 @@ export default defineConfig({
         indexName: '...'
       }
     },
-    nav:nav,
-    sidebar: sidebar,
+    nav,
+    sidebar,
+    footer,
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
-
-    footer:footer,
   }
 })

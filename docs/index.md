@@ -37,20 +37,20 @@ hero:
   actions:
     - theme: brand
       text: 开始吧.
-      link: /pages/api-examples
+      link: /pages/js/arrMethods/index
     - theme: alt
       text: View on GitHub
-      link: /pages/api-examples
+      link: /pages/js/arrMethods/index
 features:
   - icon: 🛠️
     title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /pages/api-examples
+    link: /pages/js/arrMethods/index
   - icon: 🛠️
     title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /pages/api-examples
+    link: /pages/js/arrMethods/index
   - icon: 🛠️
     title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /pages/api-examples
+    link: /pages/js/arrMethods/index
