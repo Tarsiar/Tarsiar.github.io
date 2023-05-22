@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "简单"
   # text: "尽管努力，剩下的交给天意"
-  tagline: 11111111111111
+  tagline: 记录一下，看看会成不
   actions:
     - theme: brand
       text: Markdown Examples
