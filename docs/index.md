@@ -53,4 +53,4 @@ features:
   - icon: 🛠️
     title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /pages/js/arrMethods/index
+    link: /pages/markdown-examples

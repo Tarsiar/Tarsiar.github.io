@@ -11,5 +11,5 @@ export const nav = [                  //右上角的导航栏
       { text: "其他", link: "/articles/other/vitepress/index" },
     ],
   },
-  { text: "项目", link: "/intent", target: '_self', rel: 'sponsored' },
+  { text: "vitepress", link: "/pages/blog/index", target: '_self', rel: 'sponsored' },
 ]

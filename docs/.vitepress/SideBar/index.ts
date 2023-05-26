@@ -10,7 +10,7 @@ export const sidebar = [
   {
     text: 'JavaScript基础知识',
     items: [
-      { text: '数组方法', link: '/pages/js/arrMethods/index' }, //第一个
+      { text: 'arr', link: '/pages/js/arrMethods/index' }, //第一个
       { text: '第二个', link: '' } //第二个
     ]
   },
